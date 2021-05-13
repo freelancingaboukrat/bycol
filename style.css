@@ -283,24 +283,29 @@ section.sectionOne .btnHome .btnnousContactez a {
 }
 
 section.sectionTwo h2.tSectionTwo {
-  text-align: center;
+  margin: 0px auto;
   margin-top: 70px;
   font-size: 40px;
   color: #324865;
+  width: 500px;
 }
 section.sectionTwo .ligne-titre {
   width: 60px;
   border-top: 2px solid #25dcf1;
-  margin: -20px auto;
+  margin-left: 45%;
+  margin-top: 20px;
+
 }
 section.sectionTwo p.p {
   text-align: center;
-  margin-top: 50px;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .assistantVocal {
-  margin-top: 300px;
-  height: 500px;
+  margin-top: 200px;
+  height: 200px;
   display: flex;
   justify-content: space-around;
 }
@@ -345,7 +350,7 @@ section.sectionTwo p.p {
 
 .traitementLocal {
   margin-top: 300px;
-  height: 764px;
+  height: 300px;
   display: flex;
   justify-content: space-around;
 }
@@ -389,8 +394,8 @@ section.sectionTwo p.p {
 }
 
 .personnalisation {
-  margin-top: 300px;
-  height: 400px;
+  margin-top: 200px;
+  height: 250px;
   display: flex;
   justify-content: space-around;
 }
@@ -434,7 +439,7 @@ section.sectionTwo p.p {
 }
 
 .design {
-  margin-top: 300px;
+  margin-top: 200px;
   height: 300px;
   width: 400px;
   display: flex;
@@ -478,8 +483,8 @@ section.sectionTwo p.p {
 }
 
 .qualiteSonor {
-  margin-top: 300px;
-  height: 500px;
+  margin-top: 200px;
+  height: 200px;
   display: flex;
   justify-content: space-around;
 }
@@ -523,8 +528,8 @@ section.sectionTwo p.p {
 }
 
 .domotique {
-  margin-top: 300px;
-  height: 764px;
+  margin-top: 200px;
+  height: 300px;
   display: flex;
   justify-content: space-around;
 }
