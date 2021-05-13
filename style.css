@@ -3,11 +3,12 @@
 ::before {
   box-sizing: border-box;
 }
+html, 
 body {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   height: 100vh;
-  /* background: #000; */
 }
 
 .container-h {
@@ -42,7 +43,10 @@ ul.nav li {
   font-weight: 900;
   letter-spacing: 2px;
 }
-
+ul.nav li a {
+  color: #fff;
+  text-decoration: none;
+}
 ul.nav li.contactez {
   width: 160.5px;
   height: 48px;
@@ -75,13 +79,11 @@ section.sectionOne .leFuture {
   font-size: 57px;
   color: #24dfef;
 }
-
 section.sectionOne .btnHome {
   grid-row: 4;
   grid-column: 2;
   display: flex;
 }
-
 section.sectionOne .btnHome .btnDecouvrir {
   display: flex;
   justify-content: center;
@@ -92,9 +94,12 @@ section.sectionOne .btnHome .btnDecouvrir {
   font-size: 20px;
   background: #fff;
   border-radius: 999px;
-  color: #16b3c6;
   cursor: pointer;
   z-index: 10;
+}
+section.sectionOne .btnHome .btnDecouvrir a {
+  color: #16b3c6;
+  text-decoration: none;
 }
 section.sectionOne .btnHome .btnnousContactez {
   display: flex;
@@ -106,6 +111,10 @@ section.sectionOne .btnHome .btnnousContactez {
   border-radius: 999px;
   border: 1px solid #fff;
   cursor: pointer;
+}
+section.sectionOne .btnHome .btnnousContactez a {
+  color: #16b3c6;
+  text-decoration: none;
 }
 
 /* media */
