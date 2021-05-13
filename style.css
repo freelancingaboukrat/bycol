@@ -664,7 +664,8 @@ section.sectionFour h2.titreSF {
   font-size: 35px;
   width: 200px;
   position: relative;
-  top: -200px;
+  top: 100px;
+  margin-bottom: 200px;
 }
 section.sectionFour .cards {
   display: flex;
@@ -730,7 +731,7 @@ section.sectionFour .co-fondateur {
   font-size: 16px;
 }
 .co-fondateur.c-two p {
-  text-align: center; 
+  text-align: center;
   margin: 20px auto;
 }
 
@@ -762,4 +763,142 @@ section.sectionFour .co-fondateur {
 .co-fondateur.c-three p {
   text-align: center;
   margin: 20px auto;
+}
+section.sectionFour .slide {
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* sectionFive */
+
+section.sectionFive {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trustedByTheWorld-sBest h2 {
+  font-size: 16px;
+  color: #cedaf8;
+  text-align: center;
+}
+.newsletters {
+  margin-top: 150px;
+}
+.newsletters h2 {
+  font-size: 42px;
+  text-align: center;
+  font-weight: normal;
+}
+.newsletters h2 strong {
+  font-weight: bold;
+}
+.newsletters form input.emailInput {
+  outline: none;
+  width: 565px;
+  height: 104px;
+  border-radius: 999px;
+  font-size: 22px;
+  border: 1px solid #527EE9;
+  padding-left: 100px;
+}
+.newsletters form input::placeholder {
+  font-size: 22px;
+  color: #527EE9;
+}
+.newsletters form input.btn-sub {
+  outline: none;
+  border: none;
+  margin-left: 50px;
+  width: 186px;
+  height: 59px;
+  margin-right: 20px;
+  font-size: 21px;
+  background: #7464FD;
+  border-radius: 999px;
+  color: #ffff;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgb(0, 0, 0, 16%);
+}
+
+/* footer */
+
+footer {
+  height: 800px;
+  background: #008DBF;
+  color: #fff;
+  display: flex;
+  background-image: url(ressources/contact.svg);
+  background-repeat: no-repeat;
+  background-position: 0 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+.info {
+  display: grid;
+  grid-template-columns: 240px repeat(3, 220px);
+  grid-template-rows: 300px; 
+  border-bottom: 1px solid #B6C0D8;
+  margin-top: 100px;
+}
+.cabol {
+  grid-column: 1;
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 25px;
+}
+.cabol img.imgCabol {
+  width: 127px;
+  margin-left: -10px;
+}
+.cabol .resau-sociaux img {
+  margin-right: 30px;
+}
+.info .cards-info ul{
+  list-style-type: none;  
+}
+.info .company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info .company h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+.info .company ul {
+  padding: 0 ;
+  line-height: 25px;
+}
+
+.info .help {
+  display: flex;
+  flex-direction: column;
+}
+.info .help h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+.info .help ul {
+  padding: 0 ;
+  line-height: 25px;
+}
+
+.info .solutions {
+  display: flex;
+  flex-direction: column;
+}
+.info .solutions h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+.info .solutions ul {
+  padding: 0;
+  line-height: 25px;
+}
+
+footer p.copyright  {
+  margin-top: 80px;
 }
