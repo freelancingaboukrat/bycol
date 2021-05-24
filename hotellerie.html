@@ -22,11 +22,35 @@
             <li class="contactez">Contactez-nous</li>
         </ul>
 
-        <div class="container-h" onclick="myFunction(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>  
+        <div class="navResponsive">
+            <input id="page-nav-toggle" class="main-navigation-toggle" type="checkbox" />
+            <label for="page-nav-toggle">
+                <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+                    <g class="icon-group">
+                        <g class="icon--menu">
+                            <path d="M 6 0 L 54 0" />
+                            <path d="M 6 15 L 54 15" />
+                            <path d="M 6 30 L 54 30" />
+                        </g>
+                        <g class="icon--close">
+                            <path d="M 15 0 L 45 30" />
+                            <path d="M 15 30 L 45 0" />
+                        </g>
+                    </g>
+                </svg>
+            </label>
+        
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="#detail">Détails</a></li>
+                    <li><a href="#lequipe">L'équipe</a></li>
+                    <li><a href="hotellerie.html">Hôtellerie</a></li>
+                    <li> <a href="#nousContacter">
+                            Nous contacter
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section class="sectionOne">
