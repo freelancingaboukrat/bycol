@@ -22,7 +22,6 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  /* background: #000; */
 }
 
 .navResponsive {
@@ -242,7 +241,7 @@ section.sectionOne .btnHome .btnnousContactez a {
   }
   .main-navigation li {
     --border-size: 1vmin;
-    display: flex;
+    disp7lay: flex;
     align-items: center;
     position: relative;
     overflow: hidden;
