@@ -9,6 +9,7 @@
   --font-heading: "Merriweather", serif;
   --font-size: 1.125rem;
   --line-height: 1.5;
+  --res: calc(0.01 * 10vmin);
 }
 
 *,
@@ -241,7 +242,7 @@ section.sectionOne .btnHome .btnnousContactez a {
   }
   .main-navigation li {
     --border-size: 1vmin;
-    disp7lay: flex;
+    display: flex;
     align-items: center;
     position: relative;
     overflow: hidden;
@@ -600,9 +601,12 @@ section.sectionTwo p.p {
   margin-top: 200px;
   height: 300px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
-  margin-left: 16%;
+  /* margin-left: 16%; */
+}
+.design .p {
+  width: 400px;
 }
 .design h2 {
   font-size: 36px;
@@ -758,7 +762,7 @@ section.sectionTwo p.p {
   }
 }
 
-@media screen and (max-width: 733px) {
+@media screen and (max-width: 732px) {
   .personnalisation {
     margin-bottom: 300px;
   }
@@ -768,11 +772,11 @@ section.sectionTwo p.p {
 }
 
 @media screen and (max-width: 720px) {
+  .traitementLocal img {
+    margin-top: 20px;
+  }
   .personnalisation {
     margin-top: 300px;
-  }
-  .qualiteSonor {
-    margin-top: 50px;
   }
 }
 @media screen and (max-width: 594px) {
@@ -787,10 +791,6 @@ section.sectionTwo p.p {
     margin-bottom: 300px;
   }
   .design {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  .qualiteSonor {
     margin-top: 50px;
   }
 }
