@@ -567,7 +567,7 @@ section.sectionTwo p.p {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.personnalisation img {
+.personnalisation .apply img {
   height: 250px;
 }
 .personnalisation .p {
