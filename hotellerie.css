@@ -1019,28 +1019,28 @@ section.sectionFour .slide {
 }
 @media screen and (max-width: 877px) {
   section.sectionFour h2.titreSF {
-    top: 100px;
+    top: 50px;
     margin-bottom: 180px;
   }
 }
 @media screen and (max-width: 635px) {
-  section.sectionFour h2.titreSF {
+  /* section.sectionFour h2.titreSF {
     top: 120px;
-  }
+  } */
 }
 @media screen and (max-width: 499px) {
-  section.sectionFour h2.titreSF {
+  /* section.sectionFour h2.titreSF {
     top: 140px;
     margin-bottom: 200px;
-  }
+  } */
   section.sectionFour .slide {
     padding-top: 20px;
   }
 }
 @media screen and (max-width: 370px) {
-  section.sectionFour h2.titreSF {
+  /* section.sectionFour h2.titreSF {
     top: 120px;
-  }
+  } */
   section.sectionFour .co-fondateur {
     height: 200px;
     width: 320px;
@@ -1177,6 +1177,8 @@ section.sectionFive {
   }
   .newsletters form input.emailInput {
     width: 400px;
+    margin-left: 15%;
+    margin-right: 15%;
   }
   .newsletters form input.btn-sub {
     margin-left: 36%;
