@@ -1336,6 +1336,8 @@ section.sectionFive {
   }
   .newsletters form input.emailInput {
     width: 400px;
+    margin-left: 15%;
+    margin-right: 15%;
   }
   .newsletters form input.btn-sub {
     margin-left: 36%;
